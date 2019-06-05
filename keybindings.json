@@ -103,5 +103,9 @@
         "key": "ctrl+k ctrl+j",
         "command": "-editor.unfoldAll",
         "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+r ctrl+e",
+        "command": "workbench.files.action.showActiveFileInExplorer"
     }
 ]

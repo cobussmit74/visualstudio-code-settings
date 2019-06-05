@@ -1,14 +1,6 @@
 // Place your key bindings in this file to overwrite the defaults
 [
     {
-        "key": "alt+`",
-        "command": "workbench.action.quickOpen"
-    },
-    {
-        "key": "ctrl+shift+t",
-        "command": "workbench.action.quickOpen"
-    },
-    {
         "key": "ctrl+shift+s",
         "command": "workbench.action.files.saveAll"
     },
@@ -64,7 +56,7 @@
         "when": "editorFocus"
     },
     {
-        "key": "ctrl+shift+t",
+        "key": "ctrl+t",
         "command": "workbench.action.quickOpen"
     },
     {
@@ -107,5 +99,17 @@
     {
         "key": "ctrl+r ctrl+e",
         "command": "workbench.files.action.showActiveFileInExplorer"
+    },
+    {
+        "key": "ctrl+shift+t",
+        "command": "-workbench.action.reopenClosedEditor"
+    },
+    {
+        "key": "ctrl+shift+t",
+        "command": "workbench.action.showAllSymbols"
+    },
+    {
+        "key": "ctrl+t",
+        "command": "-workbench.action.showAllSymbols"
     }
 ]

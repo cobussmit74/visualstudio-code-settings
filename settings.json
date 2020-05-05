@@ -1,39 +1,50 @@
 // Place your settings in this file to overwrite the default settings
 {
-    "workbench.sideBar.location": "right",
-    "workbench.editor.enablePreviewFromQuickOpen": false,
-    "workbench.editor.enablePreview": false,
-    "relativePath.removeLeadingDot": true,
-    "javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
-    "relativePath.ignore": [
-        "**/node_modules/**",
-        "**/coverage/**",
-        "**/*.test.js"
-    ],
-    "files.exclude": {
-        "**/node_modules": true,
-        "**/coverage": true,
-        "**/.vscode": true
-    },
-    "workbench.colorTheme": "Visual Studio Light",
-    "guides.enabled": false,
-    "workbench.list.openMode": "doubleClick",
-    "editor.minimap.enabled": false,
-    "gitlens.advanced.messages": {
-        "suppressShowKeyBindingsNotice": true
-    },
-    "gitlens.historyExplorer.enabled": true,
-    "window.zoomLevel": 0,
-    "explorer.confirmDelete": false,
-    "editor.tabSize": 2,
-    "workbench.view.alwaysShowHeaderActions": true,
-    "workbench.statusBar.feedback.visible": false,
-    "workbench.iconTheme": "vscode-icons",
-    "breadcrumbs.enabled": true,
-    "typescript.updateImportsOnFileMove.enabled": "never",
-    "editor.smoothScrolling": true,
-    "editor.showFoldingControls": "always",
-    "editor.cursorBlinking": "phase",
-    "editor.cursorSmoothCaretAnimation": true,
-    "explorer.autoReveal": false
+  "workbench.sideBar.location": "right",
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "workbench.editor.enablePreview": false,
+  "relativePath.removeLeadingDot": true,
+  "javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
+  "relativePath.ignore": [
+    "**/node_modules/**",
+    "**/coverage/**",
+    "**/*.test.js"
+  ],
+  "files.exclude": {
+    "**/.vscode": true,
+    "**/coverage": true,
+    "**/node_modules": true
+  },
+  "workbench.colorTheme": "Visual Studio Light",
+  "guides.enabled": false,
+  "workbench.list.openMode": "doubleClick",
+  "editor.minimap.enabled": false,
+  "gitlens.advanced.messages": {
+    "suppressShowKeyBindingsNotice": true
+  },
+  "gitlens.historyExplorer.enabled": true,
+  "window.zoomLevel": 0,
+  "explorer.confirmDelete": false,
+  "editor.tabSize": 2,
+  "workbench.view.alwaysShowHeaderActions": true,
+  "workbench.statusBar.feedback.visible": false,
+  "workbench.iconTheme": "vscode-icons",
+  "breadcrumbs.enabled": true,
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.tslint": true
+  },
+  "editor.smoothScrolling": true,
+  "editor.showFoldingControls": "always",
+  "editor.cursorBlinking": "phase",
+  "editor.cursorSmoothCaretAnimation": true,
+  "explorer.autoReveal": false,
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "eslint.autoFixOnSave": true,
+  "tslint.autoFixOnSave": true,
+  "editor.formatOnSave": true,
+  "typescriptHero.imports.organizeOnSave": true,
+  "typescriptHero.imports.stringQuoteStyle": "\""
 }
